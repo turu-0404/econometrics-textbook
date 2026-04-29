@@ -1,0 +1,6 @@
+title: "計量経済学教科書：高校生から博士課程まで"
+summary: "確率論・推測統計から始め、OLS・操作変数・パネルデータ・時系列・機械学習まで、計量経済学を最短距離で学ぶための教科書。"
+topics: ["econometrics", "statistics", "mathematics"]
+published: false
+chapters:
+  - ch01_確率空間・測度論入門
