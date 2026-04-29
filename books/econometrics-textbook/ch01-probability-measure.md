@@ -32,7 +32,7 @@ title: "第1章：確率空間・測度論入門"
 
 $$\int_a^b f(x)\,dx = \lim_{n \to \infty} \sum_{k=1}^{n} f(x_k^*)\,\Delta x_k$$
 
-![リーマン積分 vs ルベーグ積分の比較](./images/fig01_riemann_vs_lebesgue.png)
+![リーマン積分 vs ルベーグ積分の比較](https://raw.githubusercontent.com/turu-0404/econometrics-textbook/master/books/econometrics-textbook/images/fig01_riemann_vs_lebesgue.png)
 
 
 分割を無限に細かくしたとき（$\Delta x_k \to 0$）の長方形の面積の合計が、リーマン積分の定義である。
@@ -530,7 +530,7 @@ $$\iint_{\mathbb{R}^2} e^{-(x^2+y^2)/2}\,dx\,dy = \int_0^\infty e^{-r^2/2} \cdot
 
 これが極座標変換のヤコビアン（$dx\,dy = r\,dr\,d\theta$）の幾何学的な正体だ。$\theta$ 方向の積分（$\int_0^{2\pi}d\theta = 2\pi$）は回転対称性から自明に分離できる。
 
-![ガウス積分の極座標変換：同心円と円環への分解](./images/fig02_gaussian_polar.png)
+![ガウス積分の極座標変換：同心円と円環への分解](https://raw.githubusercontent.com/turu-0404/econometrics-textbook/master/books/econometrics-textbook/images/fig02_gaussian_polar.png)
 
 
 極座標変換 $x = r\cos\theta$、$y = r\sin\theta$（$x^2+y^2=r^2$、$dx\,dy = r\,dr\,d\theta$）を適用：
@@ -1112,7 +1112,7 @@ $$\text{誤差} \leq \frac{0.4748 \times 0.125}{0.5^3 \times \sqrt{n}} = \frac{0
 | $n = 100$ | $\approx 0.047$ | 最大4.7%の誤差あり |
 | $n = 1000$ | $\approx 0.015$ | 最大1.5%の誤差あり |
 
-![CLTの収束速度（指数分布のシミュレーション）](./images/fig03_berry_esseen.png)
+![CLTの収束速度（指数分布のシミュレーション）](https://raw.githubusercontent.com/turu-0404/econometrics-textbook/master/books/econometrics-textbook/images/fig03_berry_esseen.png)
 
 **実践的な教訓**：
 
