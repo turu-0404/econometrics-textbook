@@ -530,6 +530,9 @@ $$\iint_{\mathbb{R}^2} e^{-(x^2+y^2)/2}\,dx\,dy = \int_0^\infty e^{-r^2/2} \cdot
 
 これが極座標変換のヤコビアン（$dx\,dy = r\,dr\,d\theta$）の幾何学的な正体だ。$\theta$ 方向の積分（$\int_0^{2\pi}d\theta = 2\pi$）は回転対称性から自明に分離できる。
 
+![ガウス積分の極座標変換：同心円とリングへの分解](https://raw.githubusercontent.com/turu-0404/econometrics-textbook/master/books/econometrics-textbook/images/fig02_gaussian_polar.png)
+
+
 
 極座標変換 $x = r\cos\theta$、$y = r\sin\theta$（$x^2+y^2=r^2$、$dx\,dy = r\,dr\,d\theta$）を適用：
 
