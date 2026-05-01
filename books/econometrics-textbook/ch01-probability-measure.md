@@ -1113,6 +1113,8 @@ $$\text{誤差} \leq \frac{0.4748 \times 0.125}{0.5^3 \times \sqrt{n}} = \frac{0
 | $n = 100$ | $\approx 0.047$ | 最大4.7%の誤差あり |
 | $n = 1000$ | $\approx 0.015$ | 最大1.5%の誤差あり |
 
+![ベリー＝エッセン定理：CLTの収束速度（Exp(1)）](https://raw.githubusercontent.com/turu-0404/econometrics-textbook/master/books/econometrics-textbook/images/fig03_berry_esseen.png)
+
 **実践的な教訓**：
 
 1. 「$n \geq 30$ なら CLT が使える」という経験則は目安に過ぎない。元の分布が正規に近いなら $n = 5$ でも十分なことがある。元の分布が極端に歪んでいれば $n = 1000$ でも不十分なことがある。
